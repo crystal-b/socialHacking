@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "On the Waterfront",
+  "description": "Shows potential homebuyers amazing opportunities for waterfront property thanks to climate change",
+  "version": "0.0.2",
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "jquery.js",
+        "flooding.js"
+      ]
+    }
+  ],
+  "permissions": [
+  
+  ]
+}
